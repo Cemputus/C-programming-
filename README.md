@@ -3,7 +3,11 @@
 ## Question One
 Transfer of signals is a process of transmitting information from one point to another.
 You are tasked with implementing a program in C to simulate the transfer of signals through a communication channel. The program should model the transmission of a digital signal through a noisy channel and employ error detection and correction techniques.
-
+A signal carrying "UCU" looks like;
+U-01010101
+C-01000011
+U-01010101
+Write a C Program that performs the following action.
 a) Store the above signal in a multidimensional array called `clean_signal`.  
 b) Implement a function `add_noise` that takes a digital signal structure and adds random noise to the signal. The function should randomly flip a certain percentage of bits in the signal. Store the new signal in a variable called `noise`.  
 c) Print the new signal on the screen.  
